@@ -8,12 +8,16 @@ function App() {
   // counter = 15;
   
   const addValue = ()=>{
-    counter = counter + 1;
-    if(counter > 20){
-      counter = 20;
-    }
-    setCounter(counter);
-    console.log(counter);
+    // counter = counter + 1;
+    // if(counter > 20){
+    //   counter = 20;
+    // }
+    setCounter(counter => counter +1);
+    // setCounter(counter => counter +1);
+    // setCounter(counter => counter +1);
+    // setCounter(counter => counter +1);
+
+    // console.log(counter);
   }
 
   const DecValue = ()=>{
